@@ -14,8 +14,8 @@ Tasks:
 1. Commit the changes.
 1. Make some more changes, and also add a .do file. *What do changes look like? History?*
 1. Commit the changes separately.
-1. Undo a commit with Revert.
-2. 
+1. Undo a commit with Revert. *Does it work if you try to revert a commit that adds a file?*
+2.  
 
 
 
