@@ -35,9 +35,14 @@ Go back and forth between local and remote (online) changes, being sure to sync 
 ###Branching:
 Git uses branches to let you experiment on new ideas or bug fixes.
 
-1. Create, name, and sync a new branch with the 'fork' button.
-2. Make changes, save, and commit them.
+1. Create, name, and sync a new 'experimental' branch with the 'fork' button.
+2. Make changes, save, and commit them to 'experimental.'
 3. Oh wait, no. Emergency, you have to go back to the main (master) branch.
+	1. Change a different file or a different part of the same file. Save and commit to master.
+	2. Merge the experimental and master branches.
+4. 
+
+
 
 
 
