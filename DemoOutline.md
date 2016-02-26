@@ -1,5 +1,7 @@
 Outline of GitHub Desktop Demo
 ==============================
+BITSS-IPA Workshop, March 2016
+------------------------------
 
 ###To get started:
 
