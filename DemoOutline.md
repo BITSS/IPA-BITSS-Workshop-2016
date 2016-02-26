@@ -9,12 +9,13 @@ To get started:
 
 Tasks:
 
-1. Create a new repository.
-2. What files are in it?
-3. Add a README.md
-4. Commit the changes.
-5. Make some more changes, and also add a .do file.
-6. What does changes look like? History?
+1. Create a new repository. *What files are in it?*
+1. Add a README.md
+1. Commit the changes.
+1. Make some more changes, and also add a .do file. *What do changes look like? History?*
+1. Commit the changes separately.
+1. Undo a commit with Revert.
+2. 
 
 
 
