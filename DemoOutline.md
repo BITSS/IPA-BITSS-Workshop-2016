@@ -22,14 +22,22 @@ BITSS-IPA Workshop, March 2016
 
 ###Publishing (pushing and pulling):
 
-Git is built to let you experiment and collaborate. You can store stuff online at GitHub.com.
+You can store stuff online at GitHub.com (or any server with Git installed), which will enable you to work on multiple computers.
 
 1. Just click the Publish button.
 2. Make changes online via GitHub.com.
 3. Sync with the sync button.
 
 Go back and forth between local and remote (online) changes, being sure to sync between each commit. Eventually you'll screw up and not sync enough. (That is, change a file online and commit it. Don't sync. Make a contradictory change locally and commit it. Try and sync. *What happens?*)
- 
+
+<!--This is the branch where I do crazy stuff like adding an HTML comment.--> 
+
+###Branching:
+Git uses branches to let you experiment on new ideas or bug fixes.
+
+1. Create, name, and sync a new branch with the 'fork' button.
+2. Make changes, save, and commit them.
+3. Oh wait, no. Emergency, you have to go back to the main (master) branch.
 
 
 
