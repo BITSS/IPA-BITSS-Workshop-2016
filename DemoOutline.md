@@ -9,7 +9,7 @@ BITSS-IPA Workshop, March 2016
 2. Download and install MarkdownPad.
 3. Setup the app by telling it your GitHub user name (which you need to create if you haven't already).
 
-###Tasks:
+###Creating and Changing:
 
 1. Create a new repository. *What files are in it?*
 1. Add a README.md
@@ -40,7 +40,7 @@ Git uses branches to let you experiment on new ideas or bug fixes.
 3. Oh wait, no. Emergency, you have to go back to the main (master) branch.
 	1. Change a different file or a different part of the same file. Save and commit to master.
 	2. Merge the experimental and master branches.
-4. 
+4. I can't quite remember where I was headed with this.
 
 
 
