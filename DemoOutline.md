@@ -9,9 +9,10 @@ BITSS-IPA Workshop, March 2016
 2. Download and install MarkdownPad.
 3. Setup the app by telling it your GitHub user name (which you need to create if you haven't already).
 
-###Creating and Changing:
+###Cloning, Creating and Changing:
 
-1. Create a new repository. *What files are in it?*
+1. Clone the example repository by typing the URL (http://www.github.com/BITSS/IPA-BITSS-Workshop) in and clicking "Clone." That's how you'd get a bunch of files that are already public. We'll mostly work with an empty new repository.
+2. Create a new repository. *What files are in it?*
 1. Add a README.md
 1. Commit the changes.
 1. Make some more changes, and also add a .do file. *What do changes look like? History?*
@@ -30,7 +31,9 @@ You can store stuff online at GitHub.com (or any server with Git installed), whi
 
 Go back and forth between local and remote (online) changes, being sure to sync between each commit. Eventually you'll screw up and not sync enough. (That is, change a file online and commit it. Don't sync. Make a contradictory change locally and commit it. Try and sync. *What happens?*)
 
-<!--This is the branch where I do crazy stuff like adding an HTML comment.--> 
+<!--This is the branch where I do crazy stuff like adding an HTML comment.-->
+
+<!--Did you notice how above the numbering for the bulleted items is weird in the markdown doc, but when rendered, it looks nice? Thanks, Mardown!--> 
 
 ###Branching:
 Git uses branches to let you experiment on new ideas or bug fixes.
