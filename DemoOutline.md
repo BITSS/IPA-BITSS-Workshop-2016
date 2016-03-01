@@ -2,6 +2,7 @@ Outline of GitHub Desktop Demo
 ==============================
 BITSS-IPA Workshop, March 2016
 ------------------------------
+![Git xkcd comic](https://imgs.xkcd.com/comics/git.png)
 
 ###To get started:
 
@@ -43,16 +44,32 @@ Git uses branches to let you experiment on new ideas or bug fixes.
 3. Oh wait, no. Emergency, you have to go back to the main (master) branch.
 	1. Change a different file or a different part of the same file. Save and commit to master.
 	2. Merge the experimental and master branches.
-4. I can't quite remember where I was headed with this.
+4. Between the experimental branch and the main branch, make some conflicting changes (that is, changes to the same lines of the same file). Then try and merge. *What happens?* 
 
+###Collaborating:
+Thus far we've been working solo. Now we'll collaborate. GitHub is built for this. Thousands of people contribute code to large open source coding projects without ever meeting in person. It's also great for just a few people to collaborate on simpler coding projects.
 
+There are two ways to collaborate:
 
+1. Make everyone you trust a collaborator. For small projects with trusted collaborators only.
+2. Pull requests. For big projects--let anyone make suggestions (called pull requests) and the owner gets to choose whether to accept.
 
+We'll probably only have time for #1.
 
+1. Pair up with a neighbor. One of you be A and one be B for this exercise.
+2. In the settings tab for A's repository on Github.com (that A published above), add B as a collaborator.
+3. B accept the invitation, and clone A's repository so you have it on your own computer.
+4. B make a change, commit, and sync (push) the change.
+5. A sync (pull) B's changes, make your own changes, commit, and push.
+6. After handing off back and forth successfully, make simultaneous conflicting changes. *How do you resolve the conflicts?*
+7. Switch roles between A & B and repeat.
 
+###Additional Git Topics:
 
+####Pull Requests:
+This is how you suggest changes to repositories to which you aren't a full fledged collaborator. Try this with a partner if you have time. Clone a repo you don't own, make a change, submit a pull request, and ask the owner to merge the pull request. Switch roles.
 
+####Command Line:
+Almost all experienced users will use Git via the command line. (Terminal on a Mac, the Git Shell that came with the Desktop app, Windows PowerShell, there are a lot of options. They're all where you type commands for your computer to execute.) You can read why [here](http://programmers.stackexchange.com/questions/173297/why-learn-git-when-there-are-gui-apps-for-github). Basically, it's more powerful.
 
-
-
-Most experienced users will use Git via the command line. (Terminal on a Mac, the Git Shell that came with the Desktop app, Windows PowerShell, there are a lot of options. They're all where you type commands for your computer to execute.) You can read why [here](http://programmers.stackexchange.com/questions/173297/why-learn-git-when-there-are-gui-apps-for-github). Basically, it's more powerful.
+There are a million and one online tutorials for Git in the command line. [Software Carpentry's](http://swcarpentry.github.io/git-novice/) is good, as is [Atlassian's](https://www.atlassian.com/git/tutorials/). The basic stuff is all nicely summarized [here](http://rogerdudler.github.io/git-guide/) in a single page.
