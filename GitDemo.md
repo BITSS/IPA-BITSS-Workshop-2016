@@ -14,8 +14,8 @@ Git is a version control program that helps you very accurately keep track of ch
 
 Most people use the command line to run Git, but GitHub has built an app that can do some of the simpler tasks, and that's what we'll use.
 
-###Creating and Changing:
-The options in the Github app under the "+" button are to add, create, or clone a repository. Adding is just telling the app that a repository is already on your computer. Creating creates a new repository. (Cloning is copying an existing repository from your GitHub account. Unfortunately, cloning in the app is much different than cloning using command line Git, so we won't worry about it, but you can read about in [online](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository).)
+###Cloning, Creating, and Changing:
+The options in the Github app under the "+" button are to add, create, or clone a repository. Adding is just telling the app that a repository is already on your computer. Creating creates a new repository. Cloning is copying an existing repository from your GitHub account. To clone a public repository that doesn't belong to you, click the download button that is just to the left of the "Download ZIP" button on the repository's GitHub.com page, or drag and drop the URL from your browser into the open GitHub Desktop app (oddly, there is no way to type the URL directly into the app.)  
 
 2. Create a new repository. *What files are in it?*
 1. Add a README.md
