@@ -10,9 +10,9 @@ BITSS-IPA Workshop, March 2016
 2. Download and install MarkdownPad.
 3. Setup the app by telling it your GitHub user name (which you need to create if you haven't already).
 
-###Cloning, Creating and Changing:
+###Creating and Changing:
+The options in the Github app under the "+" button are to add, create, or clone a repository. Adding is just telling the app that a repository is already on your computer. Creating creates a new repository. (Cloning is copying an existing repository from your GitHub account. Unfortunately, cloning in the app is much different than cloning using command line Git, so we won't worry about it.)
 
-1. Clone the example repository by typing the URL (http://www.github.com/BITSS/IPA-BITSS-Workshop) in and clicking "Clone." That's how you'd get a bunch of files that are already public. We'll mostly work with an empty new repository.
 2. Create a new repository. *What files are in it?*
 1. Add a README.md
 1. Commit the changes.
