@@ -10,8 +10,12 @@ BITSS-IPA Workshop, March 2016
 2. Download and install MarkdownPad.
 3. Setup the app by telling it your GitHub user name (which you need to create if you haven't already).
 
+Git is a version control program that helps you very accurately keep track of changes to text files, with or without collaborators. Note that .txt, .do, .R, .md, and many other files are actually text files. Others like .doc, .docx, .xls, .xlsx, .pdf, .dta, are not text files. So there's huge value in using Git and Github for your Stata script (.do) files, but there's little value in using it with your data (.dta) files.
+
+Most people use the command line to run Git, but GitHub has built an app that can do some of the simpler tasks, and that's what we'll use.
+
 ###Creating and Changing:
-The options in the Github app under the "+" button are to add, create, or clone a repository. Adding is just telling the app that a repository is already on your computer. Creating creates a new repository. (Cloning is copying an existing repository from your GitHub account. Unfortunately, cloning in the app is much different than cloning using command line Git, so we won't worry about it.)
+The options in the Github app under the "+" button are to add, create, or clone a repository. Adding is just telling the app that a repository is already on your computer. Creating creates a new repository. (Cloning is copying an existing repository from your GitHub account. Unfortunately, cloning in the app is much different than cloning using command line Git, so we won't worry about it, but you can read about in [online](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository).)
 
 2. Create a new repository. *What files are in it?*
 1. Add a README.md
